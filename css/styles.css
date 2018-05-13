@@ -1,0 +1,85 @@
+/* add your CSS here */
+#container {
+  width: 304px;
+  margin: 20px auto;
+  background: linear-gradient(270deg, #de3715, #35de15, #15ded3, #de15d1, #feff04);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 20s linear infinite;
+  -moz-animation: AnimationName 20s linear infinite;
+  animation: AnimationName 20s linear infinite;
+  box-shadow: 1px 4px 6px #aaa;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  color: rgba(22, 22, 22, 0.6);
+  border-bottom: 1px solid rgba(111, 111, 111, 0.5);
+  padding: 0 auto;
+  padding: 0 auto;
+}
+
+#circle {
+  width: 0;
+  border: 1em solid rgba(111, 111, 111, 0.3);
+  border-radius: 1em;
+}
+
+img {
+  padding: 0 auto;margin: 10px auto;
+  border: 2px rgba(222, 222, 222, 0.8) solid;
+  padding: 0 auto;  border-radius: 4px;
+}
+
+.bordered {
+  border: 2px #666 solid;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#card {
+  padding: 0 10px;
+  background-color: rgba(225, 225, 225, 0.7);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85em;
+  border: 2px rgba(222, 222, 222, 0.8) solid;
+  border-radius: 4px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#facts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.right {
+  font-style: italic;
+  float: right;
+}
