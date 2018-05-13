@@ -1,4 +1,7 @@
-/* add your CSS here */
+body {
+  background-color: black;
+}
+
 #container {
   width: 304px;
   margin: 20px auto;
